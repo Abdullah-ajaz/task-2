@@ -1,0 +1,398 @@
+.main-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 15px;
+    background-color: transparent;
+    height: 50px;
+    text-shadow: 1px 1px #000000;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.hepta{
+    font-weight: 900;
+    color: white;
+    font-family: 'Abril Fatface', serif;
+    text-shadow: 1px 1px #000000;
+}
+.fa-bars{
+    font-size: 40px;
+    color: white;
+}
+.hero-section{
+    background-image: url("./hero_1.jpg.webp");
+    height: 110vh;
+    background-size: cover;
+    background-position: center center;
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 1px 1px #000000;    
+}
+.hero-section p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 20px;
+}
+.hero-section p a{
+    color: rgb(177, 183, 190);
+}
+.travel{
+    font-family: 'Abril Fatface', serif;
+
+    color: rgb(250, 248, 248);
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.hero-section button{
+    height: 60px;
+    width: 180px;
+    background-color: transparent;
+    margin-top: 40px;
+    border: 2px solid #ffffff;
+    color: #fff;
+    border-radius: 3px;
+}
+.hero-section button:hover{
+    color: #000000;
+    background-color: white;
+    border-radius: 3px;
+}
+.welcome-section{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;  
+}
+.welcome-section img{
+    height: 700px;
+    width: 550px;
+    padding: 130px 70px;
+}
+.welcome-section p{
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 100;
+}
+.welcome-section h1{
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#play{
+    color: lightseagreen;
+}
+#play:hover{
+    color: black;
+}
+#play span{
+    border: 2px solid #cdc2c2;
+    padding: 15px 18px;
+    border-radius: 50px;
+}
+.experience-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 50px 0;   
+}
+.experience-section h1{
+    font-size: 32px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 500px;
+}
+.experience-section p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #6C757D;
+    margin-top: 0px;
+    text-align: center;
+}
+.foods,.resort{
+display: flex;
+justify-content: space-around;
+padding-top: 35px;
+width: 100%;
+}
+.G-T-A,
+.B-M-H{
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+.G-T-A img,
+.B-M-H img{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+.G-T-A h1{
+    font-size: 28px;
+    justify-content: space-around;
+    align-items: center;
+}
+.G-T-A p,
+.B-M-H p{
+    font-size: 18px;   
+}
+.recent-blog-post{
+    display: flex;
+    background-size: cover;
+    height: auto;
+    flex-direction: column;
+    background-color:#65C0BA ;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;    
+}
+.recent-blog-post h1{
+    font-size: 70px;
+    font-family: 'Abril Fatface', serif;
+    text-align: left;
+    margin-top: 0px;
+}
+.recent-blog-post p{
+    font: 20px;
+    font-size: 20px;
+font-family: 'Mukta Mahee', sans-serif;
+color: #ffffffb3;
+line-height: 1.6;
+text-align: center;
+}
+.best{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    gap: 30px;
+}
+.juice,
+.boat,
+.sofa{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 350px;
+    height: auto;
+}
+.juice h1,
+.boat h1,
+.sofa h1{
+    font-size: 26px;
+}
+}
+.juice h1:hover,
+.boat h1:hover,
+.sofa h1:hover{
+color: #65C0BA;
+cursor: pointer;
+}
+.juice p,
+.boat p,
+.sofa p{
+    font-size: 18px;
+    color: #6c757d;
+    text-align: left;
+}
+#feb{
+    letter-spacing: 2px;
+}
+.content-one,
+.content-two,
+.content-three{
+    padding: 10px 30px;
+}
+.happy-customers{
+    display: flex;
+    background-size: cover;
+    height: auto;
+    background-color: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    flex-direction: column;
+}
+.happy-customers h1{
+    font-size: 70px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 50px;
+}
+.reviews{   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;  
+    margin: 20px ;  
+}
+.C-R-j{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.C-R-J img{
+    height: 70px;
+    width: 70px;
+    border: 2px;
+    border-radius: 50px;
+}
+.C-R-J p{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 20px;
+    width: 349px;
+    height: 180px;
+    font-style: italic;
+    line-height: 1.5;
+}
+#gupta{
+    font-size: 18px;
+    color: #6C757D;
+}
+.top-destination{
+    display: flex;
+    background-size: cover;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    flex-direction: column;
+}
+.top-destination h1{
+    font-size: 32px;
+    margin: 0px 0px 8px 0px;
+}
+.top-destination p{
+    font-size: 20px;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+    color: #6C757D;
+    margin: 0px 0px 16px 0px;
+}
+.detail{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 30px 0px;
+}
+.F-R-H-M{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: auto;
+}
+.F-R-H-M img{
+    width: 255px;
+    height: 171px;
+    margin: 0px 0px 15px 0px;
+}
+.F-R-H-M h1{
+    font-size: 20px;
+    font-family: 'Abril Fatfcae', serif;
+    font-weight: 500;
+}
+.F-R-H-M h1:hover{
+    color: #65C0BA;
+    cursor: pointer;
+}
+.F-R-H-M span{
+    font-size: 18px;
+    color: #65C0BA;
+    margin-right: 60px;
+}
+.F-R-H-M p{
+    font-size: 18px;
+    color: #cccccc;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+.contact{
+    display: flex;
+    background-color: #000000;
+    background-size: cover;
+    height: auto;
+    gap: 140px;
+    padding: 110px 80px;
+    
+}
+.container{
+    justify-content: space-around;
+}
+.container h1{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Abril Fatfcae', serif;
+    margin: 0px 0px 20px;
+    font-weight: bold;
+}
+.container p{
+    font-size: 18px;
+    font-family: 'Mukta Mahee', sans-serif;
+    color: #ffffffb3;
+}
+#color{
+    font-size: 18px;
+    font-family: 'Mukta Mahee', sans-serif;
+    color: #ffffff;
+}
+input::placeholder{
+    font-style: italic;
+    font-size: 15px;
+    
+}
+form input{
+    background-color: transparent;
+    border: unset;
+    border-bottom: 0.5px solid #ffffff;
+    padding: 0px 50px 15px 10px;
+    color: white;
+}
+.fa-paper-plane{
+    margin-left: -40px;
+    color: white;
+}
+input:focus-visible{
+    outline: none;
+}
+.footer{
+    border: none;
+    background-color: #000000;
+    background-size: cover;
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+}
+.footer-inner{
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid #d1cccc80;
+padding-top: 40px;
+}
+.footer p{
+    color: #ffffffb3;
+    font-size: 18px;
+}
+.footer-inner span:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.footer .icons i{
+    margin-right:20px;
+}
+.footer .icons i:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
